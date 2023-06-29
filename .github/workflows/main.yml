@@ -16,8 +16,8 @@ jobs:
      steps:
        - uses: actions/checkout@v1
        - name: Install & Tests
-         run:
-           yarn install
+         run: |
+           npm install
            npm test
    cd:
      runs-on: ubuntu-latest
